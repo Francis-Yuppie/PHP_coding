@@ -4,7 +4,7 @@
  */
 class Assignment
 {
-   public function evenNumbers($range=['start'=>0,'stop'=>100,'result'=>'sum','type'=>'even'],$answer = null)
+   public function evenOddPrimeNumbers($range=['start'=>0,'stop'=>100,'result'=>'sum','type'=>'even'],$answer = null)
    {
       if(is_array($range)){
          if(!is_int($range['start']) || !is_int($range['stop'])){
