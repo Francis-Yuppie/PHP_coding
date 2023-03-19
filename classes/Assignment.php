@@ -31,7 +31,7 @@ class Assignment
       }
       return 'Range provided is invalid';      
      }
-     protected function comparison($i,$type,$answer = 0){
+     protected function comparison($i,$type,$answer = 0){//a protected function to switch between odd,even,prime
       if($i%2==0 && $type ==='even'){
         return true; 
       }elseif($i%2!==0 && $type ==='odd'){
